@@ -219,6 +219,7 @@ input {
 /* Footer */
 footer {
   background-color: #3d3434;
+  padding-bottom: 1px;
 }
 
 footer h3 {
