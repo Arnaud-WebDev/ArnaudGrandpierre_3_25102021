@@ -3,9 +3,7 @@
 @import './_mixins';
 @import './_placeholders';
 
-.title {
-    text-align: center;
-}
+/* Les balises */
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -44,9 +42,12 @@ section {
 article {
     position: relative;
 }
+/* Les balises */
 
-/* Header */
-
+/* Header */ /* Header*/
+.title {
+    text-align: center;
+}
 .localisation {
     @extend %flex-center;
     background-color: $fond-clair;
@@ -232,4 +233,52 @@ li {
 
 .fa-hands-helping {
     padding-right: 10px;
+}
+
+/* Footer */ /* Footer */
+
+/* La palette du goût */ /* La palette du goût */
+
+/* Header */ /* header */
+.title__menu1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    .title__arrow {
+        position: absolute;
+        left: 30px;
+        top: 32px;
+        font-size: 1.8rem;
+    }
+}
+
+
+/* Header */ /* Header */ 
+
+/* Section Menu1 */ /* Section Menu1 */
+.section__menu1 {
+    background-color: $fond-clair;
+    border-radius: 20px;
+    margin-top: -80px;
+    position: relative;
+}
+
+.image_palette {
+    object-fit: cover;
+    width: 100%;
+    height: 18rem;
+    object-position: 65%;
+}
+.h2_palette {
+    font-family: 'Shrikhand', cursive;
+}
+
+.heart {
+    position: absolute;
+    right: 30px;
+    bottom: 75px;
+    font-size: 1.5rem;
 }
