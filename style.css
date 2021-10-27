@@ -258,8 +258,11 @@ ul {
 }
 
 li {
-  color: white;
   margin: 5px;
+}
+
+li a {
+  color: white;
 }
 
 .fa-utensils {

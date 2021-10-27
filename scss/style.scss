@@ -237,9 +237,13 @@ ul {
     padding-inline-start: 0;
     margin: 30px;
 }
+
 li {
-    color: white;
     margin: 5px;
+}
+
+li a {
+    color: white;    
 }
 
 .fa-utensils {
@@ -335,3 +339,4 @@ li {
 }
 
 /* Card Palette */ 
+
