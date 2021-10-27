@@ -90,7 +90,6 @@ h1, h3 {
 
 h2, h3 {
   margin-left: 20px;
-  font-weight: 400;
 }
 
 p {
@@ -178,25 +177,35 @@ article {
   margin: 15px;
   display: flex;
   justify-content: space-between;
-  height: 4.6rem;
+  height: 4rem;
   padding: 0.7rem;
   box-shadow: 2px 2px 10px grey;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 .price {
   padding-top: 24px;
   padding-right: 10px;
+  font-size: 0.9rem;
 }
 
 .title_palette {
-  font-size: 1rem;
+  font-size: 0.91rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
+.card_palette2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .card_palette2 p {
+  font-size: 0.86rem;
   margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* Card Palette */
@@ -300,6 +309,7 @@ input {
 
 .h2_palette {
   font-family: "Shrikhand", cursive;
+  font-weight: 400;
 }
 
 .heart {
