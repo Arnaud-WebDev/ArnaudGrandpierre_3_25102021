@@ -37,3 +37,15 @@ article {
     position: relative;
 }
 /* Les balises */
+
+@media only screen  and (min-width: 1024px) {
+   .h2_restaurants {
+       text-align: center;
+   }
+
+   .restaurants_cards {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+}

@@ -35,30 +35,34 @@
 
     <div class="fonctionnement">
         <h2>Fonctionnement</h2>
-        <div class="btn2">
-            <div class="btn2__number">1</div>
-            <i class="fas  fa-mobile-alt btn2__store"></i>
-            <p class="btn2__p">Choisissez un restaurant</p>
-        </div>
+        <div class="fonctionnement_btn">
+            <div class="btn2">
+                <div class="btn2__number">1</div>
+                <i class="fas  fa-mobile-alt btn2__store"></i>
+                <p class="btn2__p">Choisissez un restaurant</p>
+            </div>
 
-        <div class="btn2">
-            <div class="btn2__number">2</div>
-            <i class="fas fa-list btn2__store"></i>
-            <p class="btn2__p">Composez votre menu</p>
-        </div>
+            <div class="btn2">
+                <div class="btn2__number">2</div>
+                <i class="fas fa-list btn2__store"></i>
+                <p class="btn2__p">Composez votre menu</p>
+            </div>
 
-        <div class="btn2">
-            <div class="btn2__number">3</div>
-            <i class="fas fa-store btn2__store"></i>
-            <div class="btn2__p">Dégustez au restaurant</div>
+            <div class="btn2">
+                <div class="btn2__number">3</div>
+                <i class="fas fa-store btn2__store"></i>
+                <div class="btn2__p">Dégustez au restaurant</div>
+            </div>
         </div>
     </div>
 
     <section>
-        <h2>Restaurants</h2>
+        <h2 class="h2_restaurants">Restaurants</h2>
+
+    <div class="restaurants_cards">
         <article>
-            <a href="LaPaletteDuGout.html" target="_blank">
-                <div class="card">
+            <div class="card">
+                <a href="LaPaletteDuGout.html" target="_blank">
                     <img src="images/photo1.jpg" class="card__image" alt="photo1">
                     <div class="card__text">Nouveau</div>
                     <div class="card__heart">
@@ -66,13 +70,13 @@
                         <h2 class="card__title">La palette du goût</h2>
                         <p class="card__localisation">Ménilmontant</p>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </article>
 
         <article>
-            <a href="LaNoteEnchantee.html" target="_blank">
-                <div class="card">
+            <div class="card">
+                <a href="LaNoteEnchantee.html" target="_blank">
                     <img src="images/photo2.jpg" class="card__image" alt="photo2">
                     <div class="card__text">Nouveau</div>
                     <div class="card__heart">
@@ -80,31 +84,38 @@
                         <h2 class="card__title">La note enchantée</h2>
                         <p class="card__localisation">Charonne</p>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </article>
 
-        <a href="AlaFrancaise.html" target="_blank">
+        <article>
             <div class="card">
-                <img src="images/photo3.jpg" class="card__image" alt="photo3">
-                <div class="card__heart">
-                    <i class="far fa-heart card__heart2"></i>
-                    <h2 class="card__title">À la française</h2>
-                    <p class="card__localisation">Cité Rouge</p>
-                </div>
+                <a href="AlaFrancaise.html" target="_blank">
+                    <img src="images/photo3.jpg" class="card__image" alt="photo3">
+                    <div class="card__heart">
+                        <i class="far fa-heart card__heart2"></i>
+                        <h2 class="card__title">À la française</h2>
+                        <p class="card__localisation">Cité Rouge</p>
+                    </div>
+                </a>
             </div>
-        </a>
+        </article>
 
-        <a href="LeDeliceDesSens.html" target="_blank">
+
+        <article>
             <div class="card">
-                <img src="images/photo4.jpg" class="card__image" alt="photo4">
-                <div class="card__heart">
-                    <i class="far fa-heart card__heart2"></i>
-                    <h2 class="card__title">Le délice des sens</h2>
-                    <p class="card__localisation">Folie-Méricourt</p>
-                </div>
+                <a href="LeDeliceDesSens.html" target="_blank">
+                    <img src="images/photo4.jpg" class="card__image" alt="photo4">
+                    <div class="card__heart">
+                        <i class="far fa-heart card__heart2"></i>
+                        <h2 class="card__title">Le délice des sens</h2>
+                        <p class="card__localisation">Folie-Méricourt</p>
+                    </div>
+                </a>
             </div>
-        </a>
+        </article>
+    </div>
+
     </section>
 
     <footer>
@@ -116,7 +127,7 @@
             <li><a href="#">Mention légales</a></li>
             <li><a href="mailto:votrenom@bidule.com" class="mailto">Contact</a></li>
         </ul>
-        
+
     </footer>
 
 </body>

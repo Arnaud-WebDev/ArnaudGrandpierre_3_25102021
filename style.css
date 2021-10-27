@@ -76,6 +76,11 @@
 }
 
 /* Bouttons de la Partie Fonctionnements */
+@media only screen and (min-width: 1024px) {
+  .btn2 {
+    width: 20%;
+  }
+}
 /* Les balises */
 body {
   font-family: "Roboto", sans-serif;
@@ -117,12 +122,24 @@ article {
 }
 
 /* Les balises */
+@media only screen and (min-width: 1024px) {
+  .h2_restaurants {
+    text-align: center;
+  }
+
+  .restaurants_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 /* Cards de la partie restaurants */
 /* Cards de la partie restaurants */
 .card {
   background-color: white;
   border-radius: 20px;
   margin: 20px;
+  position: relative;
 }
 .card .card__image {
   object-fit: cover;
@@ -209,6 +226,18 @@ article {
 }
 
 /* Card Palette */
+@media only screen and (min-width: 1024px) {
+  .card {
+    margin-bottom: 30px;
+    min-width: 80rem;
+  }
+  .card .card__image {
+    height: 20rem;
+  }
+  .card:hover {
+    box-shadow: 5px 5px 12px black;
+  }
+}
 .fa-mobile-alt {
   margin-right: 30px;
   opacity: 0.6;
@@ -311,6 +340,7 @@ input {
     border-radius: 15px;
     text-align: center;
     background-color: white;
+    outline: none;
   }
 
   .fa-map-marker-alt {
@@ -330,6 +360,16 @@ input {
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .fonctionnement {
+    text-align: center;
+  }
+
+  .fonctionnement_btn {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .entrees {
   margin-top: 40px;
 }
