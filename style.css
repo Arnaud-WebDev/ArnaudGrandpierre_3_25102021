@@ -116,10 +116,13 @@ input {
   margin-top: 20px;
 }
 .btn:hover {
-  font-size: 1.1rem;
+  background: linear-gradient(#eb70c8, #8a4ed3);
+  box-shadow: none;
 }
 .btn--commander {
   text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 .fonctionnement {
