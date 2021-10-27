@@ -118,6 +118,9 @@ input {
 .btn:hover {
   font-size: 1.1rem;
 }
+.btn--commander {
+  text-align: center;
+}
 
 .fonctionnement {
   display: flex;
