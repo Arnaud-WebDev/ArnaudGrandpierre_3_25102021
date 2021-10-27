@@ -69,7 +69,7 @@
   font-size: 0.9rem;
 }
 .btn2:hover {
-  background-color: rgba(187, 173, 173, 0.4);
+  background-color: #F5EDFF;
 }
 .btn2:hover .btn2__store {
   color: #9356DC;
