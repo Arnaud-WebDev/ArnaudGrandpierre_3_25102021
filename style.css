@@ -207,8 +207,18 @@ input {
   color: #0b7a7a;
 }
 
+.card__title {
+  font-size: 1.3rem;
+  margin-top: 2px;
+}
+
+.card__localisation {
+  margin-top: -10px;
+}
+
 .card__heart {
   position: relative;
+  padding-bottom: 1px;
 }
 
 .card__heart2 {
@@ -292,7 +302,7 @@ li {
 .section__menu1 {
   background-color: #ededed;
   border-radius: 50px 50px 0 0;
-  margin-top: -50px;
+  margin-top: -80px;
   position: relative;
 }
 

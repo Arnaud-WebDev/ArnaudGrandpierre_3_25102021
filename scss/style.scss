@@ -192,8 +192,17 @@ input {
     }
 }
 
+.card__title {
+    font-size: 1.3rem;
+    margin-top: 2px;
+}
+
+.card__localisation {
+    margin-top: -10px;
+}
 .card__heart {
     position:relative;
+    padding-bottom: 1px;
 }
 
 .card__heart2 {
