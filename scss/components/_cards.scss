@@ -58,6 +58,9 @@
     height: 4.6rem;
     padding: 0.7rem;
     box-shadow: 2px 2px 10px grey;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .price {
