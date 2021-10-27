@@ -1,0 +1,38 @@
+/* Les balises */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    font-family: 'Shrikhand', cursive;
+}
+
+h2, h3 {
+    margin-left: 20px;
+}
+p {
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    background-color: $fond-clair;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+article {
+    position: relative;
+}
+/* Les balises */
