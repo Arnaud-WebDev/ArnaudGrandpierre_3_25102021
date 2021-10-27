@@ -12,6 +12,10 @@ header {
     width: 100%;
     box-shadow: -1px 2px 6px grey inset;
 }
+
+.fa-search {
+    visibility: hidden;
+}
 .search {
     display: flex;
     align-items: center;
@@ -57,5 +61,44 @@ input {
     }
 }
 
-
 /* Header des autres menus */ /* Header des autres menus */
+
+@media only screen  and (min-width: 1024px) {
+    /*
+    .header {
+        background: url(images/photo4.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 25rem;
+    } */
+
+    .localisation {
+        height: 80px;   
+    }
+    
+    form {
+        position: relative;
+        right: 35px;
+    }
+
+    input {
+        font-size: 1.2rem;
+        font-weight: 500;
+        height: 3rem;
+        border-radius: 15px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .fa-map-marker-alt {
+       visibility: hidden;
+    }
+
+    .fa-search {
+        visibility: visible;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}
+
