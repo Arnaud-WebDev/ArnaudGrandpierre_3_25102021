@@ -76,20 +76,26 @@
 }
 
 /* Bouttons de la Partie Fonctionnements */
+@media only screen and (min-width: 700px) {
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .btn {
     position: relative;
   }
 
   .btn2 {
-    min-width: 25%;
     padding-left: 30px;
+    width: 18rem;
   }
 }
 @media only screen and (min-width: 1440px) {
   .btn2 {
-    display: flex;
-    justify-content: center;
+    width: 25rem;
   }
 }
 /* Les balises */
@@ -133,15 +139,15 @@ article {
 }
 
 /* Les balises */
-@media only screen and (min-width: 1024px) {
-  .h2_restaurants {
-    text-align: center;
-  }
-
+@media only screen and (min-width: 700px) {
   .restaurants_cards {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .h2_restaurants {
+    text-align: center;
   }
 }
 /* Cards de la partie restaurants */
@@ -237,16 +243,26 @@ article {
 }
 
 /* Card Palette */
+@media only screen and (min-width: 700px) {
+  .card {
+    min-width: 40rem;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .card {
     margin-bottom: 30px;
-    min-width: 60rem;
+    min-width: 50rem;
   }
   .card .card__image {
     height: 20rem;
   }
   .card:hover {
     box-shadow: 5px 5px 12px black;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .card {
+    min-width: 60rem;
   }
 }
 .fa-mobile-alt {
@@ -338,12 +354,7 @@ input {
 
 /* Header des autres menus */
 /* Header des autres menus */
-@media only screen and (min-width: 1024px) {
-  /* .header {
-      background: url(images/photo5.png);
-      background-size: cover;
-      height: 27rem;
-  } */
+@media only screen and (min-width: 700px) {
   .localisation {
     height: 80px;
   }
@@ -373,7 +384,8 @@ input {
     right: 15px;
     top: 15px;
   }
-
+}
+@media only screen and (min-width: 1024px) {
   .title2 {
     position: relative;
   }
@@ -396,6 +408,13 @@ input {
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 700px) {
+  .fonctionnement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .fonctionnement {
     text-align: center;

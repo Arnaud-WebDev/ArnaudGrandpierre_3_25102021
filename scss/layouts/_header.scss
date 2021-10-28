@@ -73,15 +73,7 @@ input {
 }
 
 /* Header des autres menus */ /* Header des autres menus */
-
-@media only screen  and (min-width: 1024px) {
-    
-    /* .header {
-        background: url(images/photo5.png);
-        background-size: cover;
-        height: 27rem;
-    } */ 
-
+@media only screen  and (min-width: 700px) {
     .localisation {
         height: 80px;   
     }
@@ -111,6 +103,12 @@ input {
         right: 15px;
         top: 15px;
     }
+}
+
+@media only screen  and (min-width: 1024px) {
+     
+
+    
 
     .title2 {
         position: relative;

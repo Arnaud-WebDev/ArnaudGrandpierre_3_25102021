@@ -65,20 +65,28 @@
 
 /* Bouttons de la Partie Fonctionnements */ 
 
+@media only screen  and (min-width: 700px) {
+    .btn2 {
+        display: flex;
+        justify-content: center;
+        width: 30rem;
+    }
+
+}
+
 @media only screen  and (min-width: 1024px) {
     .btn {
         position: relative;
     }
     .btn2 {
-        min-width: 25%;
         padding-left: 30px;
+        width: 18rem;
     }
 }
 
 @media only screen  and (min-width: 1440px) {
     .btn2 {
-        display: flex;
-        justify-content: center;
+        width: 25rem;
     }
 
 }
