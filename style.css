@@ -161,6 +161,7 @@ article {
   border-radius: 20px;
   margin: 20px;
   position: relative;
+  width: 95%;
 }
 .card .card__image {
   object-fit: cover;
@@ -178,6 +179,11 @@ article {
   font-size: 0.9rem;
   font-weight: 700;
   color: #109071;
+}
+
+.restaurants_cards {
+  display: flex;
+  flex-direction: column;
 }
 
 .card__title {
@@ -249,18 +255,8 @@ article {
 /* Card Palette */
 /* Responsive */
 @media only screen and (min-width: 700px) {
-  .card {
-    min-width: 40rem;
-  }
-
   .card_palette {
     min-width: 40rem;
-  }
-
-  .restaurants_cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .card__title {
@@ -268,25 +264,25 @@ article {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .card {
-    margin-bottom: 30px;
-    min-width: 50rem;
-  }
-  .card .card__image {
-    height: 20rem;
-  }
   .card:hover {
     box-shadow: 5px 5px 12px black;
+  }
+
+  .restaurants_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .restaurants_card2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1300px) {
   .card_palette {
     min-width: 18rem;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .card {
-    min-width: 60rem;
   }
 }
 .fa-mobile-alt {
