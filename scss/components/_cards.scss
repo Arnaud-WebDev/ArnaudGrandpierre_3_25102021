@@ -2,9 +2,9 @@
 .card {
     background-color: white;
     border-radius: 20px;
-    margin: 20px;
     position: relative;
-    width: 95%;
+    margin-bottom: 20px;
+    width: 100%;
     .card__image {
         object-fit: cover;
         border-radius: 20px 20px 0 0;
@@ -26,6 +26,7 @@
 .restaurants_cards {
     display: flex;
     flex-direction: column;
+    margin: 15px;
 }
 .card__title {
     font-size: 1.2rem;
@@ -106,11 +107,20 @@
 }
 
 @media only screen  and (min-width: 1024px) {
-    
-     .card:hover {
+    /*
+   .card {
+       height: 20rem;
+       .card__image {
+           height: 15rem;
+       }
+   } 
+ .card:hover {
         box-shadow: 5px 5px 12px black;
-        }
-  
+        } */ 
+     
+    .card:hover {
+        box-shadow: 5px 5px 12px black;
+    }              
      
     .restaurants_cards {
         display: flex;
@@ -121,7 +131,7 @@
     .restaurants_card2 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 48%;
     }
 }
 

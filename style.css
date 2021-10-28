@@ -159,9 +159,9 @@ article {
 .card {
   background-color: white;
   border-radius: 20px;
-  margin: 20px;
   position: relative;
-  width: 95%;
+  margin-bottom: 20px;
+  width: 100%;
 }
 .card .card__image {
   object-fit: cover;
@@ -184,6 +184,7 @@ article {
 .restaurants_cards {
   display: flex;
   flex-direction: column;
+  margin: 15px;
 }
 
 .card__title {
@@ -264,6 +265,16 @@ article {
   }
 }
 @media only screen and (min-width: 1024px) {
+  /*
+    .card {
+        height: 20rem;
+        .card__image {
+            height: 15rem;
+        }
+    } 
+  .card:hover {
+         box-shadow: 5px 5px 12px black;
+         } */
   .card:hover {
     box-shadow: 5px 5px 12px black;
   }
@@ -277,7 +288,7 @@ article {
   .restaurants_card2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 48%;
   }
 }
 @media only screen and (min-width: 1300px) {
@@ -358,8 +369,11 @@ input {
   width: 80%;
 }
 
-.photo5 {
-  display: none;
+.header_banner {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/photo5.png) hidden;
+  position: relative;
 }
 
 /* Header des autres menus */
@@ -421,19 +435,32 @@ input {
 }
 @media only screen and (min-width: 1024px) {
   .title2 {
+    color: white;
     position: relative;
   }
 
-  .title2 {
-    color: white;
+  .header_banner {
+    background-image: url(images/photo5.png);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    position: relative;
   }
 
-  .photo5 {
-    position: absolute;
-    display: flex;
-    object-fit: cover;
+  .header_banner > * {
+    z-index: 10;
+    position: relative;
+  }
+
+  .header_banner::after {
+    content: "";
+    display: block;
     width: 100%;
-    height: 17rem;
+    height: 20rem;
+    background-color: #333;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 0;
   }
 
   .image_palette {
