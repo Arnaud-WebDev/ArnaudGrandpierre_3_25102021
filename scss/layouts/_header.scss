@@ -43,6 +43,10 @@ input {
     width: 80%;
 }
 
+.photo5 {
+    display: none;
+}
+
 
 
 /* Header des autres menus */ /* Header des autres menus */
@@ -61,16 +65,22 @@ input {
     }
 }
 
+.image_palette {
+    object-fit: cover;
+    width: 100%;
+    height: 18rem;
+    object-position: 65%;
+}
+
 /* Header des autres menus */ /* Header des autres menus */
 
 @media only screen  and (min-width: 1024px) {
-    /*
-    .header {
-        background: url(images/photo4.jpg) no-repeat;
-        background-position: center;
+    
+    /* .header {
+        background: url(images/photo5.png);
         background-size: cover;
-        height: 25rem;
-    } */
+        height: 27rem;
+    } */ 
 
     .localisation {
         height: 80px;   
@@ -100,6 +110,22 @@ input {
         position: absolute;
         right: 15px;
         top: 15px;
+    }
+
+    .title2 {
+        position: relative;
+    }
+
+    .title2 {
+        color: white;
+    }
+
+    .photo5 {
+        position: absolute;
+        display: flex;
+        object-fit: cover;
+        width: 100%;
+        height: 17rem;
     }
 }
 

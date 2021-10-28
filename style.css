@@ -77,8 +77,19 @@
 
 /* Bouttons de la Partie Fonctionnements */
 @media only screen and (min-width: 1024px) {
+  .btn {
+    position: relative;
+  }
+
   .btn2 {
-    width: 20%;
+    min-width: 25%;
+    padding-left: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .btn2 {
+    display: flex;
+    justify-content: center;
   }
 }
 /* Les balises */
@@ -229,7 +240,7 @@ article {
 @media only screen and (min-width: 1024px) {
   .card {
     margin-bottom: 30px;
-    min-width: 80rem;
+    min-width: 60rem;
   }
   .card .card__image {
     height: 20rem;
@@ -297,6 +308,10 @@ input {
   width: 80%;
 }
 
+.photo5 {
+  display: none;
+}
+
 /* Header des autres menus */
 /* Header des autres menus */
 .title__menu1 {
@@ -314,15 +329,20 @@ input {
   font-size: 1.8rem;
 }
 
+.image_palette {
+  object-fit: cover;
+  width: 100%;
+  height: 18rem;
+  object-position: 65%;
+}
+
 /* Header des autres menus */
 /* Header des autres menus */
 @media only screen and (min-width: 1024px) {
-  /*
-  .header {
-      background: url(images/photo4.jpg) no-repeat;
-      background-position: center;
+  /* .header {
+      background: url(images/photo5.png);
       background-size: cover;
-      height: 25rem;
+      height: 27rem;
   } */
   .localisation {
     height: 80px;
@@ -353,6 +373,22 @@ input {
     right: 15px;
     top: 15px;
   }
+
+  .title2 {
+    position: relative;
+  }
+
+  .title2 {
+    color: white;
+  }
+
+  .photo5 {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 17rem;
+  }
 }
 .fonctionnement {
   display: flex;
@@ -379,13 +415,6 @@ input {
   border-radius: 50px 50px 0 0;
   margin-top: -80px;
   position: relative;
-}
-
-.image_palette {
-  object-fit: cover;
-  width: 100%;
-  height: 18rem;
-  object-position: 65%;
 }
 
 .h2_palette {
@@ -442,6 +471,18 @@ li a {
 
 .fa-hands-helping {
   padding-right: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  footer h3 {
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
