@@ -1,0 +1,15 @@
+.heart {
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .heart {
+        font-size: 2rem;
+        right: 100px;
+        top: 50px;
+    }
+  
+}

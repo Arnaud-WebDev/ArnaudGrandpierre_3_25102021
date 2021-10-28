@@ -99,6 +99,16 @@
     .card_palette {
         min-width: 40rem;
     }
+
+    .restaurants_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card__title {
+        margin-left: 20px;
+    }
 }
 
 @media only screen  and (min-width: 1024px) {
@@ -114,7 +124,7 @@
     }
 }
 
-@media only screen and (min-width: 1160px) {
+@media only screen and (min-width: 1300px) {
     .card_palette {
         min-width: 18rem;
     }

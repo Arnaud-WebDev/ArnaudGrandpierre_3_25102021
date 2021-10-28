@@ -83,6 +83,11 @@
     width: 30rem;
     margin-bottom: 30px;
   }
+
+  .btn {
+    padding: 1rem 2.5rem;
+    margin-left: 2.8rem;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .btn {
@@ -141,14 +146,12 @@ article {
 
 /* Les balises */
 @media only screen and (min-width: 700px) {
-  .restaurants_cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .h2_restaurants {
     text-align: center;
+  }
+
+  h2 {
+    margin-left: 0;
   }
 }
 /* Cards de la partie restaurants */
@@ -253,6 +256,16 @@ article {
   .card_palette {
     min-width: 40rem;
   }
+
+  .restaurants_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__title {
+    margin-left: 20px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .card {
@@ -266,7 +279,7 @@ article {
     box-shadow: 5px 5px 12px black;
   }
 }
-@media only screen and (min-width: 1160px) {
+@media only screen and (min-width: 1300px) {
   .card_palette {
     min-width: 18rem;
   }
@@ -291,6 +304,20 @@ article {
   opacity: 0.6;
 }
 
+.heart {
+  position: absolute;
+  right: 30px;
+  top: 45px;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .heart {
+    font-size: 2rem;
+    right: 100px;
+    top: 50px;
+  }
+}
 .title {
   text-align: center;
 }
@@ -412,6 +439,10 @@ input {
     width: 100%;
     height: 17rem;
   }
+
+  .image_palette {
+    height: 25rem;
+  }
 }
 .fonctionnement {
   display: flex;
@@ -452,13 +483,6 @@ input {
   font-weight: 400;
 }
 
-.heart {
-  position: absolute;
-  right: 30px;
-  top: 45px;
-  font-size: 1.5rem;
-}
-
 .h2_entrees {
   border-bottom: 4px solid #99E2D0;
   width: 3.4rem;
@@ -474,8 +498,23 @@ input {
     flex-direction: column;
     align-items: center;
   }
+
+  .h2_palette {
+    margin-left: 30px;
+  }
 }
-@media only screen and (min-width: 1162px) {
+@media only screen and (min-width: 1024px) {
+  .h2_palette {
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .section__menu1 {
+    margin-top: -50px;
+  }
+}
+@media only screen and (min-width: 1300px) {
   .entrees2 {
     display: flex;
     justify-content: space-evenly;
