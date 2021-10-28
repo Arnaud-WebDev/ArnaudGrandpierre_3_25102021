@@ -244,8 +244,13 @@ article {
 }
 
 /* Card Palette */
+/* Responsive */
 @media only screen and (min-width: 700px) {
   .card {
+    min-width: 40rem;
+  }
+
+  .card_palette {
     min-width: 40rem;
   }
 }
@@ -259,6 +264,11 @@ article {
   }
   .card:hover {
     box-shadow: 5px 5px 12px black;
+  }
+}
+@media only screen and (min-width: 1160px) {
+  .card_palette {
+    min-width: 18rem;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -457,6 +467,26 @@ input {
   font-size: 1.3rem;
 }
 
+/* Responsive */
+@media only screen and (min-width: 700px) {
+  .entrees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1162px) {
+  .entrees2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .card_palette {
+    min-width: 20rem;
+  }
+}
 footer {
   background-color: #353535;
   padding-bottom: 1px;

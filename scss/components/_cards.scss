@@ -88,8 +88,15 @@
 }
 
 /* Card Palette */ 
+
+/* Responsive */ 
+
 @media only screen  and (min-width: 700px) {
     .card{
+        min-width: 40rem;
+    }
+
+    .card_palette {
         min-width: 40rem;
     }
 }
@@ -103,9 +110,14 @@
         }
     &:hover {
         box-shadow: 5px 5px 12px black;
-    }    
+        }    
     }
-   
+}
+
+@media only screen and (min-width: 1160px) {
+    .card_palette {
+        min-width: 18rem;
+    }
 }
 
 @media only screen  and (min-width: 1440px) {
