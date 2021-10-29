@@ -540,7 +540,7 @@ input {
   /* @media only screen  and (min-width: 1300px) {}*/
   .entrees2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
   }
 
