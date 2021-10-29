@@ -46,9 +46,9 @@
     .section__menu1 {
         margin-top: -50px;
     }
- }
+ 
 
-@media only screen  and (min-width: 1300px) {
+/* @media only screen  and (min-width: 1300px) {}*/ 
     .entrees2 {
         display: flex;
         justify-content: space-evenly;
@@ -58,15 +58,16 @@
     .entrees {
          margin: 0;
      }
-     
+
     .entrees3 {
         display: flex;
         flex-direction: column;
     }
-}  
-
- @media only screen  and (min-width: 1440px) {
     .card_palette {
         min-width: 20rem;
     }
-}
+}  
+
+/* @media only screen  and (min-width: 1440px) {
+    
+} */
