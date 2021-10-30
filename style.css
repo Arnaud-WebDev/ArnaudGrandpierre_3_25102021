@@ -543,6 +543,7 @@ input {
     display: flex;
     justify-content: center;
     /* était en space envenly */
+    flex-direction: column;
     width: 100%;
   }
 
@@ -679,7 +680,7 @@ li a {
 }
 
 .loading {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 @keyframes spin {
