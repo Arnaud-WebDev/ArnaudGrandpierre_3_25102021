@@ -543,7 +543,6 @@ input {
     display: flex;
     justify-content: center;
     /* était en space envenly */
-    flex-direction: column;
     width: 100%;
   }
 
