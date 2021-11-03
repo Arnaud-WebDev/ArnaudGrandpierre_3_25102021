@@ -716,7 +716,9 @@ li a {
   visibility: visible;
   animation: heart 1s linear;
   transform-origin: center;
-  color: red;
+  color: transparent;
+  background-clip: text;
+  background: linear-gradient(#eb70c8, #8a4ed3);
 }
 
 /* .card__heart4 {
