@@ -42,11 +42,15 @@
 }
 
 .card__heart2 {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
     font-size: 1.5rem;
 }
+.card__heart3 {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    font-size: 1.5rem;
+    visibility: hidden;
+} 
 .card p {
     padding-left: 20px;
     padding-bottom: 5px;
@@ -107,16 +111,7 @@
 }
 
 @media only screen  and (min-width: 1024px) {
-    /*
-   .card {
-       height: 20rem;
-       .card__image {
-           height: 15rem;
-       }
-   } 
- .card:hover {
-        box-shadow: 5px 5px 12px black;
-        } */ 
+ 
      
     .card:hover {
         box-shadow: 5px 5px 12px black;
