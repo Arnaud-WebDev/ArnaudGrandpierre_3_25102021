@@ -1,4 +1,4 @@
-.heart {
+.heart__menu1 {
     position: absolute;
     right: 30px;
     top: 45px;
@@ -6,10 +6,11 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .heart {
+    .heart__menu1{
+        position: absolute;
         font-size: 2rem;
-        right: 100px;
-        top: 50px;
+        right: 0px;
+        top: 0px;
     }
   
 }

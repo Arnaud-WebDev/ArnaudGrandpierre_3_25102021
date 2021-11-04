@@ -132,33 +132,7 @@
     background: linear-gradient(#eb70c8, #8a4ed3);
     -webkit-background-clip: text;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .card__heart4 {
-    .card__heart3 {
-        color: transparent;
-        background-clip: text;       
-        background: linear-gradient(#eb70c8, #8a4ed3);  
-    }
-}  */  
-        
-
-
+   
 @keyframes heart2 {
     0% {
         transform: scale(1);
@@ -198,4 +172,40 @@
 }    
 
 /* Les coeurs des menus */
+.heart__menu1 {
+    color: black;
+}
+
+.heart__menu2 {
+    visibility: hidden;
+}
+
+.heart__menu {
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    right: 100px;
+    top: 50px;
+    width: 2rem;
+    height: 2rem;
+    &:hover {
+        .heart__menu1 {
+            position: absolute;
+            color: transparent;
+            background: linear-gradient(#eb70c8, #8a4ed3);
+            -webkit-background-clip: text;
+            animation: heart2 1s linear;
+        }
+        .heart__menu2 { 
+            position: absolute;
+            color: transparent;
+            background: linear-gradient(#eb70c8, #8a4ed3);
+            -webkit-background-clip: text;
+            visibility: visible;
+            animation: heart 1s linear;
+        }       
+    }
+
+}    
+
 
