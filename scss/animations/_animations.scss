@@ -207,5 +207,24 @@
     }
 
 }    
+/* L'animation des menus */ 
 
+.card_palette:hover {
+    .checkbox {
+        display: flex;
+        transform-origin: right;
+        transform: scale(1);
+        &:hover {
+            
+            transition: transform 2s;
+        }
+    }
+}
 
+.checkbox {
+    
+}
+
+.checkbox:hover {
+    
+}
