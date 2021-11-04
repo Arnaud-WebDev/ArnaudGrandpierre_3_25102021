@@ -42,14 +42,15 @@
 }
 
 .card__heart2 {
+    position: absolute;
     font-size: 1.5rem;
+    color: black;
 }
 .card__heart3 {
     position: absolute;
     right: 8px;
     bottom: 8px;
     font-size: 1.5rem;
-    visibility: hidden;
 } 
 .card p {
     padding-left: 20px;

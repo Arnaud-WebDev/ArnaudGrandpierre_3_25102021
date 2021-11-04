@@ -203,7 +203,9 @@ article {
 }
 
 .card__heart2 {
+  position: absolute;
   font-size: 1.5rem;
+  color: black;
 }
 
 .card__heart3 {
@@ -211,7 +213,6 @@ article {
   right: 8px;
   bottom: 8px;
   font-size: 1.5rem;
-  visibility: hidden;
 }
 
 .card p {
@@ -709,14 +710,28 @@ li a {
   bottom: 30px;
 }
 .card__heart4:hover .card__heart2 {
-  color: red;
   animation: heart2 1s linear;
 }
 .card__heart4:hover .card__heart3 {
-  visibility: visible;
   animation: heart 1s linear;
   transform-origin: center;
-  color: red;
+}
+.card__heart4:hover .heart5 {
+  color: transparent;
+  position: absolute;
+  background: linear-gradient(#eb70c8, #8a4ed3);
+  -webkit-background-clip: text;
+}
+.card__heart4:hover .heart6 {
+  visibility: visible;
+}
+
+.heart6 {
+  visibility: hidden;
+  position: absolute;
+  color: transparent;
+  background: linear-gradient(#eb70c8, #8a4ed3);
+  -webkit-background-clip: text;
 }
 
 /* .card__heart4 {
