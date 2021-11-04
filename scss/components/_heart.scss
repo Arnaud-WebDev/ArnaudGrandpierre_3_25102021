@@ -1,8 +1,14 @@
 .heart__menu1 {
     position: absolute;
-    right: 30px;
-    top: 45px;
+    right: 0px;
+    top: 0px;
     font-size: 1.5rem;
+}
+.heart__menu2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 1.5rem; 
 }
 
 @media only screen and (min-width: 1024px) {
@@ -11,6 +17,12 @@
         font-size: 2rem;
         right: 0px;
         top: 0px;
+    }
+    .heart__menu2 {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        font-size: 2rem; 
     }
   
 }

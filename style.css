@@ -310,8 +310,15 @@ article {
 
 .heart__menu1 {
   position: absolute;
-  right: 30px;
-  top: 45px;
+  right: 0px;
+  top: 0px;
+  font-size: 1.5rem;
+}
+
+.heart__menu2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
   font-size: 1.5rem;
 }
 
@@ -321,6 +328,13 @@ article {
     font-size: 2rem;
     right: 0px;
     top: 0px;
+  }
+
+  .heart__menu2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 2rem;
   }
 }
 .title {
