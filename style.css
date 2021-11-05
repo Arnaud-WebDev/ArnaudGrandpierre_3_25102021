@@ -233,13 +233,6 @@ article {
   box-shadow: 2px 2px 10px grey;
 }
 
-.price {
-  padding-top: 33px;
-  padding-left: 20px;
-  margin-right: 20px;
-  font-size: 0.9rem;
-}
-
 .title_palette {
   font-size: 0.91rem;
   overflow: hidden;
@@ -251,7 +244,9 @@ article {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding: 0.7rem;
+  padding-top: 0.7rem;
+  padding-left: 0.7rem;
+  padding-bottom: 0.7rem;
 }
 .card_palette2 p {
   font-size: 0.86rem;
@@ -261,23 +256,33 @@ article {
   text-overflow: ellipsis;
 }
 
+.price {
+  padding-top: 33px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.price_checkbox {
+  display: flex;
+}
+
 .checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
-  width: 30%;
+  width: 10px;
   height: 100%;
   border-radius: 0 20px 20px 0;
-  display: none;
-  transform: scale(0);
+  opacity: 0;
 }
 
 /* Card Palette */
 /* Responsive */
 @media only screen and (min-width: 700px) {
   .card_palette {
-    min-width: 40rem;
+    position: relative;
+    width: 40rem;
   }
 
   .card__title {
@@ -285,6 +290,10 @@ article {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .card_palette {
+    width: 20rem;
+  }
+
   .card:hover {
     box-shadow: 5px 5px 12px black;
   }
@@ -299,11 +308,6 @@ article {
     display: flex;
     flex-direction: column;
     width: 48%;
-  }
-}
-@media only screen and (min-width: 1300px) {
-  .card_palette {
-    min-width: 20rem;
   }
 }
 .fa-mobile-alt {
@@ -810,7 +814,7 @@ li a {
   cursor: pointer;
   font-size: 2rem;
   right: 100px;
-  top: 50px;
+  top: 43px;
   width: 2rem;
   height: 2rem;
 }
@@ -830,14 +834,22 @@ li a {
   animation: heart 1s linear;
 }
 
-/* L'animation des menus */
+/* L'animation des cards des menus */
 .card_palette:hover .checkbox {
-  display: flex;
+  opacity: 1;
   transform-origin: right;
-  transform: scale(1);
+  width: 100px;
 }
-.card_palette:hover .checkbox:hover {
-  transition: transform 2s;
+.card_palette:hover .circle {
+  transform: rotate(360deg);
+}
+
+.checkbox {
+  transition: 0.7s ease-in-out;
+}
+
+.circle {
+  transition: 0.7s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

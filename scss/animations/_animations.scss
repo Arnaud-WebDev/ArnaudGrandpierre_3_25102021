@@ -185,7 +185,7 @@
     cursor: pointer;
     font-size: 2rem;
     right: 100px;
-    top: 50px;
+    top: 43px;
     width: 2rem;
     height: 2rem;
     &:hover {
@@ -207,24 +207,28 @@
     }
 
 }    
-/* L'animation des menus */ 
-
+/* L'animation des cards des menus */    
+     
 .card_palette:hover {
     .checkbox {
-        display: flex;
+        opacity: 1; 
         transform-origin: right;
-        transform: scale(1);
-        &:hover {
-            
-            transition: transform 2s;
-        }
+        width: 100px;
     }
-}
+    .circle {
+       transform: rotate(360deg); 
+    }
+}   
 
 .checkbox {
-    
+    transition: .7s ease-in-out;
 }
 
-.checkbox:hover {
-    
+.circle {
+    transition: .7s ease-in-out;
 }
+
+
+
+
+   

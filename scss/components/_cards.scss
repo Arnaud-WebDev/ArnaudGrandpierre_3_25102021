@@ -70,12 +70,6 @@
     box-shadow: 2px 2px 10px grey;
 }
 
-.price {
-    padding-top: 33px;
-    padding-left: 20px;
-    margin-right: 20px;
-    font-size: 0.9rem;
-}
 
 .title_palette {
     font-size: 0.91rem;
@@ -88,7 +82,9 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    padding: 0.7rem;
+    padding-top: 0.7rem;
+    padding-left: 0.7rem;
+    padding-bottom: 0.7rem;
     p {
         font-size: 0.86rem;
         margin-top: 5px;
@@ -98,16 +94,24 @@
     }
 }
 
+.price {
+    padding-top: 33px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+.price_checkbox {
+    display: flex;
+}
 .checkbox {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $color-tertiaire;
-    width: 30%;
+    width: 10px;
     height: 100%;
     border-radius: 0 20px 20px 0;
-    display: none;
-    transform: scale(0);
+    opacity: 0;
 }
 
 /* Card Palette */ 
@@ -117,7 +121,8 @@
 @media only screen  and (min-width: 700px) {
 
     .card_palette {
-        min-width: 40rem;
+        position: relative;
+        width: 40rem;
     }    
     .card__title {
         margin-left: 20px;
@@ -125,7 +130,10 @@
 }
 
 @media only screen  and (min-width: 1024px) {
- 
+    
+    .card_palette {
+        width: 20rem;
+    }
      
     .card:hover {
         box-shadow: 5px 5px 12px black;
@@ -144,9 +152,5 @@
     }
 }
 
-@media only screen and (min-width: 1300px) {
-    .card_palette {
-        min-width: 20rem;
-    }
-}
+
 
