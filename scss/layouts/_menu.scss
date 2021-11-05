@@ -48,8 +48,20 @@
     }
  
 
-/* @media only screen  and (min-width: 1300px) {}*/ 
+
     .entrees2 {
+        display: flex;
+        justify-content: center; /* était en space envenly */ 
+        width: 100%;
+    }
+
+    .entrees_plat {
+        display: flex;
+        justify-content: center; /* était en space envenly */ 
+        width: 100%; 
+    }
+
+    .entrees_dessert {
         display: flex;
         justify-content: center; /* était en space envenly */ 
         width: 100%;

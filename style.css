@@ -569,8 +569,21 @@ input {
     margin-top: -50px;
   }
 
-  /* @media only screen  and (min-width: 1300px) {}*/
   .entrees2 {
+    display: flex;
+    justify-content: center;
+    /* était en space envenly */
+    width: 100%;
+  }
+
+  .entrees_plat {
+    display: flex;
+    justify-content: center;
+    /* était en space envenly */
+    width: 100%;
+  }
+
+  .entrees_dessert {
     display: flex;
     justify-content: center;
     /* était en space envenly */
@@ -850,6 +863,29 @@ li a {
 
 .circle {
   transition: 0.7s ease-in-out;
+}
+
+.entrees2 {
+  animation: entrees_animation 1s;
+}
+
+.entrees_plat {
+  animation: entrees_animation 2s;
+}
+
+.entrees_dessert {
+  animation: entrees_animation 3s;
+}
+
+@keyframes entrees_animation {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
