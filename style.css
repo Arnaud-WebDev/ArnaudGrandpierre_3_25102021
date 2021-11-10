@@ -33,7 +33,7 @@
   margin-top: 20px;
 }
 .btn:hover {
-  background: linear-gradient(#eb70c8, #8a4ed3);
+  background: linear-gradient(#f8ade3, #b68aeb);
   box-shadow: none;
 }
 .btn--commander {
