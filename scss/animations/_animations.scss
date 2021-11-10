@@ -100,8 +100,8 @@
 .card__heart4 {
     position: absolute;
     cursor: pointer;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     right: 30px;
     bottom: 30px;
     &:hover {
@@ -110,12 +110,12 @@
             }
         .card__heart3 {        
              animation: heart 1s linear;
-            transform-origin: center;;
+            transform-origin: center;
             }
         .heart5 {
             color: transparent;
             position: absolute;
-            background: linear-gradient(#eb70c8, #8a4ed3);
+            background: linear-gradient($color-secondary, $color-primary);
             -webkit-background-clip: text; 
         }
         .heart6 {
@@ -126,10 +126,12 @@
 
 
 .heart6 {
+    right: 0;
+    bottom: 0;
     visibility: hidden;
     position: absolute;
     color: transparent;
-    background: linear-gradient(#eb70c8, #8a4ed3);
+    background: linear-gradient($color-secondary, $color-primary);
     -webkit-background-clip: text;
   }
    
@@ -192,14 +194,14 @@
         .heart__menu1 {
             position: absolute;
             color: transparent;
-            background: linear-gradient(#eb70c8, #8a4ed3);
+            background: linear-gradient($color-secondary, $color-primary);
             -webkit-background-clip: text;
             animation: heart2 1s linear;
         }
         .heart__menu2 { 
             position: absolute;
             color: transparent;
-            background: linear-gradient(#eb70c8, #8a4ed3);
+            background: linear-gradient($color-secondary, $color-primary);
             -webkit-background-clip: text;
             visibility: visible;
             animation: heart 1s linear;

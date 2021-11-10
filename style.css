@@ -472,8 +472,9 @@ input {
   }
 
   .header_banner {
-    background-image: url(images/photo5.png);
+    background-image: url(images/photo10.png);
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 20rem;
     position: relative;
@@ -749,8 +750,8 @@ li a {
 .card__heart4 {
   position: absolute;
   cursor: pointer;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   right: 30px;
   bottom: 30px;
 }
@@ -764,7 +765,7 @@ li a {
 .card__heart4:hover .heart5 {
   color: transparent;
   position: absolute;
-  background: linear-gradient(#eb70c8, #8a4ed3);
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
 }
 .card__heart4:hover .heart6 {
@@ -772,10 +773,12 @@ li a {
 }
 
 .heart6 {
+  right: 0;
+  bottom: 0;
   visibility: hidden;
   position: absolute;
   color: transparent;
-  background: linear-gradient(#eb70c8, #8a4ed3);
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
 }
 
@@ -834,14 +837,14 @@ li a {
 .heart__menu:hover .heart__menu1 {
   position: absolute;
   color: transparent;
-  background: linear-gradient(#eb70c8, #8a4ed3);
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   animation: heart2 1s linear;
 }
 .heart__menu:hover .heart__menu2 {
   position: absolute;
   color: transparent;
-  background: linear-gradient(#eb70c8, #8a4ed3);
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   visibility: visible;
   animation: heart 1s linear;
