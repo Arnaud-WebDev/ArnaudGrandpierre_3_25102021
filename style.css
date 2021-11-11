@@ -766,6 +766,7 @@ li a {
   color: transparent;
   position: absolute;
   background: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
   -webkit-background-clip: text;
 }
 .card__heart4:hover .heart6 {
@@ -779,6 +780,7 @@ li a {
   position: absolute;
   color: transparent;
   background: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -838,6 +840,7 @@ li a {
   position: absolute;
   color: transparent;
   background: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
   -webkit-background-clip: text;
   animation: heart2 1s linear;
 }
@@ -845,6 +848,7 @@ li a {
   position: absolute;
   color: transparent;
   background: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
   -webkit-background-clip: text;
   visibility: visible;
   animation: heart 1s linear;

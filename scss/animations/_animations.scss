@@ -116,6 +116,7 @@
             color: transparent;
             position: absolute;
             background: linear-gradient($color-secondary, $color-primary);
+            background-clip: text;
             -webkit-background-clip: text; 
         }
         .heart6 {
@@ -132,6 +133,7 @@
     position: absolute;
     color: transparent;
     background: linear-gradient($color-secondary, $color-primary);
+    background-clip: text;
     -webkit-background-clip: text;
   }
    
@@ -195,6 +197,7 @@
             position: absolute;
             color: transparent;
             background: linear-gradient($color-secondary, $color-primary);
+            background-clip: text;
             -webkit-background-clip: text;
             animation: heart2 1s linear;
         }
@@ -202,6 +205,7 @@
             position: absolute;
             color: transparent;
             background: linear-gradient($color-secondary, $color-primary);
+            background-clip: text;
             -webkit-background-clip: text;
             visibility: visible;
             animation: heart 1s linear;
