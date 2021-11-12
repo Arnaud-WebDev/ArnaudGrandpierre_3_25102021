@@ -1,4 +1,4 @@
-/* Bouttons du Header */ 
+/* Bouton du Header */ 
 
 .btn {
     cursor: pointer;
@@ -23,9 +23,9 @@
     }
 }
 
-/* Bouttons du Header */ 
+/* Bouton du Header */ 
 
-/* Bouttons de la Partie Fonctionnements */ 
+/* Bouton de la Partie Fonctionnements */ 
 
 .btn2 {
     @extend %flex;
@@ -63,7 +63,7 @@
     } 
 }
 
-/* Bouttons de la Partie Fonctionnements */ 
+/* Bouton de la Partie Fonctionnements */ 
 
 @media only screen  and (min-width: 700px) {
     .btn2 {

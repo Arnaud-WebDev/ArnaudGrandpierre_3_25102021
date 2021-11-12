@@ -136,7 +136,26 @@
     background-clip: text;
     -webkit-background-clip: text;
   }
-   
+
+@keyframes heart {
+    0% {
+        transform: scale(0);
+    }
+    30% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(0.8);        
+    }
+    70%  {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        
+    }
+}  
+
 @keyframes heart2 {
     0% {
         transform: scale(1);
@@ -156,24 +175,7 @@
     }
 }
 
-@keyframes heart {
-    0% {
-        transform: scale(0);
-    }
-    30% {
-        transform: scale(1.2);
-    }
-    50% {
-        transform: scale(0.8);        
-    }
-    70%  {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-        
-    }
-}    
+   
 
 /* Les coeurs des menus */
 .heart__menu1 {
@@ -213,8 +215,8 @@
     }
 
 }    
-/* L'animation des cards des menus */    
-     
+   
+/* La checkbox */
 .card_palette:hover {
     .checkbox {
         opacity: 1; 
@@ -234,8 +236,9 @@
     transition: .7s ease-in-out;
 }
 
+/* Fin de la checkbox */
 
-
+/* L'animation des cards des menus */ 
 .entrees2 {
     animation: entrees_animation 2s;
 }
@@ -258,6 +261,8 @@
         opacity: 1;
     }
 }
+
+/* Fin de l'animation des cards des menus */ 
 
 /* .card_palette:nth-child(2n) {
     background-color: black;
